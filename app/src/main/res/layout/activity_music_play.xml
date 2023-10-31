@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/song_background"
+    tools:context=".music_play">
+
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/arrow_back"
+        android:padding="20dp"
+        app:backgroundTint="@null" />
+
+    <ImageView
+        android:id="@+id/khodal_maa_photo"
+        android:layout_width="230dp"
+        android:layout_height="278dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/logo" />
+
+
+    <SeekBar
+        android:id="@+id/seekbar_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:outlineSpotShadowColor="#00000000"
+        app:backgroundTint="@null"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="5dp"
+        android:scrollbarSize="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_below="@id/khodal_maa_photo"
+        />
+
+    <TextView
+        android:id="@+id/song_text"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="khodal_maa_aarti"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/khodal_maa_photo"/>
+
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="33dp">
+
+
+        <Button
+            android:id="@+id/button_play"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="148dp"
+            android:layout_marginTop="550dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/play_icon"
+            android:padding="20dp"
+            app:backgroundTint="@null" />
+
+        <Button
+            android:id="@+id/ten_sec"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-0dp"
+            android:layout_marginTop="565dp"
+            android:layout_marginRight="-300dp"
+            android:background="@drawable/right_icon"
+            android:padding="20dp"
+            app:backgroundTint="@null" />
+
+        <Button
+            android:id="@+id/min_sec"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="565dp"
+            android:background="@drawable/left_icon"
+            android:padding="20dp"
+            app:backgroundTint="@null" />
+
+    </LinearLayout>
+
+</RelativeLayout>

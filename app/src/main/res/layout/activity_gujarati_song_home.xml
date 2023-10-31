@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#010824"
+    tools:context=".gujarati_song_home">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <Button
+            android:id="@+id/second_song"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/amethysta"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            app:backgroundTint="@null"
+            android:background="@drawable/custom_border"
+            android:text="Har_Har_Shambhu"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/music_icon"
+
+            />
+
+        <Button
+            android:id="@+id/threed_song"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/amethysta"
+            android:layout_marginLeft="10dp"
+            app:backgroundTint="@null"
+            android:background="@drawable/custom_border"
+            android:text="Gori Radha Ne Kado Kaan"
+            android:textColor="@color/black"
+            android:drawableLeft="@drawable/music_icon"
+            android:textSize="20dp"
+            android:layout_below="@id/second_song"
+            />
+
+        <Button
+            android:id="@+id/khodal_maa_aarti"
+            android:drawableLeft="@drawable/music_icon"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/amethysta"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            app:backgroundTint="@null"
+            android:background="@drawable/custom_border"
+            android:text="khodal_maa_aarti"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_below="@id/threed_song"
+            />
+
+
+
+        <Button
+            android:id="@+id/manda_lidha_mohi_raj"
+            android:drawableLeft="@drawable/music_icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/amethysta"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            app:backgroundTint="@null"
+            android:background="@drawable/custom_border"
+            android:text="manda_lidha_mohi_raj"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_below="@id/khodal_maa_aarti"
+            />
+
+
+        <Button
+            android:id="@+id/moj_ma_revu"
+            android:drawableLeft="@drawable/music_icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/amethysta"
+            app:backgroundTint="@null"
+            android:background="@drawable/custom_border"
+            android:text="moj_ma_revu"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_below="@id/manda_lidha_mohi_raj"
+            />
+
+        <Button
+            android:id="@+id/sapna_vinani_raat"
+            android:drawableLeft="@drawable/music_icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amethysta"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            app:backgroundTint="@null"
+            android:background="@drawable/custom_border"
+            android:text="sapna_vinani_raat"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_below="@id/moj_ma_revu"
+            />
+
+        <Button
+            android:id="@+id/shiva_tandava"
+            android:drawableLeft="@drawable/music_icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/amethysta"
+            android:layout_marginLeft="10dp"
+            app:backgroundTint="@null"
+            android:background="@drawable/custom_border"
+            android:text="shiva_tandava"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_below="@id/sapna_vinani_raat"
+            />
+
+        <Button
+            android:id="@+id/vaagyo_re_dhol"
+            android:drawableLeft="@drawable/music_icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            app:backgroundTint="@null"
+            android:fontFamily="@font/amethysta"
+            android:background="@drawable/custom_border"
+            android:text="vaagyo_re_dhol"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_below="@id/shiva_tandava"
+            />
+
+    </RelativeLayout>
+
+</ScrollView>

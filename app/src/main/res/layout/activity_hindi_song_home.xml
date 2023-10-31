@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#010824"
+    android:layout_height="match_parent"
+    tools:context=".gujarati_song_home">
+
+    <Button
+        android:id="@+id/guli_mata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/custom_border"
+        android:drawableLeft="@drawable/music_icon"
+        android:fontFamily="@font/amethysta"
+        android:text="guli_mata"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:backgroundTint="@null" />
+
+    <Button
+        android:id="@+id/leke_prabhu_ka_naam"
+        android:drawableLeft="@drawable/music_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        app:backgroundTint="@null"
+        android:fontFamily="@font/amethysta"
+        android:background="@drawable/custom_border"
+        android:text="leke_prabhu_ka_naam"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_below="@id/guli_mata"
+        />
+
+    <Button
+        android:id="@+id/mann_jogiya_official"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/amethysta"
+        android:layout_marginLeft="10dp"
+        android:drawableLeft="@drawable/music_icon"
+        app:backgroundTint="@null"
+        android:background="@drawable/custom_border"
+        android:text="mann_jogiya_official"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_below="@id/leke_prabhu_ka_naam"
+        />
+
+    <Button
+        android:id="@+id/zihaal_miskin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:drawableLeft="@drawable/music_icon"
+        app:backgroundTint="@null"
+        android:background="@drawable/custom_border"
+        android:text="zihaal_miskin"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:fontFamily="@font/amethysta"
+        android:layout_below="@id/mann_jogiya_official"
+        />
+
+    <Button
+        android:id="@+id/gal_karke_asees_kaur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/amethysta"
+        android:layout_marginLeft="10dp"
+        android:drawableLeft="@drawable/music_icon"
+        app:backgroundTint="@null"
+        android:background="@drawable/custom_border"
+        android:text="gal_karke_asees_kaur"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_below="@id/zihaal_miskin"
+        />
+
+</RelativeLayout>
